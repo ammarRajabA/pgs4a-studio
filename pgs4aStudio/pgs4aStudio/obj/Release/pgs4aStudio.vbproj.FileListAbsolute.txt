@@ -1,0 +1,15 @@
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\bin\Release\pgs4aStudio.exe.config
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\bin\Release\pgs4aStudio.exe.manifest
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\bin\Release\pgs4aStudio.application
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\bin\Release\pgs4aStudio.exe
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\bin\Release\pgs4aStudio.pdb
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\bin\Release\pgs4aStudio.xml
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.Form1.resources
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.Form2.resources
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.Resources.resources
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.vbproj.GenerateResource.Cache
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.exe.manifest
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.application
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.exe
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.xml
+D:\programming\VisualBasic\pgs4a\pgs4aStudio\pgs4aStudio\obj\Release\pgs4aStudio.pdb

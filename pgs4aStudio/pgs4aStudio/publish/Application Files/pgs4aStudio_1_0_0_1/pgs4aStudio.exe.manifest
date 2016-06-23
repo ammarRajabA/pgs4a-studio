@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="pgs4aStudio.exe" version="1.0.0.1" publicKeyToken="d6635ba2eeba60c0" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="pygame.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="pgs4aStudio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="pgs4aStudio.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pgs4aStudio.exe" size="33280">
+      <assemblyIdentity name="pgs4aStudio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GS789PhXLCfe06AUCQtoJfgBVJS7YnghnSIsOMFTCOk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="pgs4aStudio.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pygame.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YeIWletq938Rg/G11m/1iGL/zw9T/U1QXZhjnbHjJSU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ammar\ammar-rajab" issuerKeyHash="c4c418e2f8b45692ecd15fc52d8d289d276479bc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xaUz6aFANRzHpeg1QYtyOckQsTHOTyfn29XwokdyM+w=</DigestValue></Reference></SignedInfo><SignatureValue>QNflYDmhs6NZLtWlym9pCKwLs3F2Dji/+VGKqF93wEH2onITt2AXSZeSnaZzU5AQymVcIp1NB/2yT+VFIiV5wZtt0UCrwZgsJqI4Ck16lDQu1merVA/sFEma5gn6COVSpsnKgRoatUaJbIn8N3rqTHMeQQJotSc7hWtA6T544Fo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>gJaTiih85nBUwRhST91/N4zfpANXHOepfqxrkZxPsfCSEBx+xh/YX9S39eX0aLIynhVHKFBPhfyze+qZrBqJXE7hes0oCtHGI6gHHnGIWlEIObr4hkIUNqtIGMKtJ7Imhi7CJYjpLonUVbpAZu5CB4OGZlEB69eOzHegApoCQMs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ec337247a2f0d5dbe7274fce31b110c939728b4135e8a5c71c3540a1e933a5c5" Description="" Url=""><as:assemblyIdentity name="pgs4aStudio.exe" version="1.0.0.1" publicKeyToken="d6635ba2eeba60c0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ammar\ammar-rajab</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yAH3EA8dv0VsPdQWPFVMD0rz9ya5JwtkNjJkVhbxYBg=</DigestValue></Reference></SignedInfo><SignatureValue>DQDq2oLd9hqgGv09yp4W1P47Oozy0QedtSqtgM/ufr3/VyYb5SUA/GL1K2/nem+RJJV+WJ5eWn67T/I/7fZHslks9x8I0F8q4Qk0lrydtEX/opZddhWacJgVtJcV4JdCgOsSUaPZwHxuSrWFtdlE3VXhEfqLy5epCuLArUEkcoo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>gJaTiih85nBUwRhST91/N4zfpANXHOepfqxrkZxPsfCSEBx+xh/YX9S39eX0aLIynhVHKFBPhfyze+qZrBqJXE7hes0oCtHGI6gHHnGIWlEIObr4hkIUNqtIGMKtJ7Imhi7CJYjpLonUVbpAZu5CB4OGZlEB69eOzHegApoCQMs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQQZZvAyLY/YBLcmjF5OxIgzANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAYQBtAG0AYQByAFwAYQBtAG0AYQByAC0AcgBhAGoAYQBiMB4XDTE1MDcxNDEyMjU1MVoXDTE2MDcxMzE4MjU1MVowLTErMCkGA1UEAx4iAGEAbQBtAGEAcgBcAGEAbQBtAGEAcgAtAHIAYQBqAGEAYjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAgJaTiih85nBUwRhST91/N4zfpANXHOepfqxrkZxPsfCSEBx+xh/YX9S39eX0aLIynhVHKFBPhfyze+qZrBqJXE7hes0oCtHGI6gHHnGIWlEIObr4hkIUNqtIGMKtJ7Imhi7CJYjpLonUVbpAZu5CB4OGZlEB69eOzHegApoCQMsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAhksU+sJO12GUel9nozvMYnifLMkjYlaW29oV7rMeM69puD/acgS6u1YAmgbbK0TA13/01rQ6N9Z/w+BEUK9X9YW0SEd0j/ThS2C85JdRqP7Tf69WK163QGn+YDSIrUqd04E0EwumkDuGPqHiWLov29BeawO0W5DuX6q85M9ctLQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
